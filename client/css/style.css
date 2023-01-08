@@ -72,8 +72,9 @@ ul {
 
 button {
   padding: 15px 40px;
-  margin-top: 25px;
+  margin-top: 55px;
   font-size: 1rem;
+  width: 300px;
   text-transform: uppercase;
   transition: 0.3s ease-in-out;
   border-radius: 5px;
@@ -85,7 +86,8 @@ button {
   letter-spacing: 2px;
 }
 button:hover {
-  background: #1b1c1e;
+  background: #f1f2f8;
+  color: #713fb9;
 }
 
 h2 {
@@ -173,7 +175,7 @@ header {
   flex-direction: row;
   background-position: top;
   background-size: cover;
-  /* background-attachment: fixed; */
+  background-attachment: fixed;
   position: relative;
   height: 100vh;
 }
@@ -183,11 +185,15 @@ header article {
   background: rgba(255, 255, 255, 0.6);
   border-radius: 12px;
   box-shadow: 50px 50px 30px #1b1c1e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   top: 10%;
   bottom: 20%;
   left: 50%;
-  
+  text-align: center;
 }
 @media (max-width: 767px) {
   header article {
@@ -197,11 +203,13 @@ header article {
 header h1:after {
   display: block;
   content: "";
-  width: 40px;
+  width: 60px;
   background: #1b1c1e;
   height: 3px;
-  margin: 20px 0;
+  margin: 20px auto;
 }
+
+
 
 
 /*---- SUBSCRIBE ----*/
@@ -305,7 +313,7 @@ footer article:last-child {
   margin-bottom: 25px;
   border-radius: 5px;
   transition: 0.3s ease-in-out;
- 
+  cursor: pointer;
   
 }
 

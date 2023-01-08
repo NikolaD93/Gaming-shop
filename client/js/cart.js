@@ -19,7 +19,7 @@ window.addEventListener('load', () => {
                 <td class="text-white">$${stavka.price}</td>
                 <td class="text-white">${stavka.qty}</td>
                 <td class="text-white">$${stavka.price * stavka.qty}</td>
-                <td><button onclick="removeItem(${stavka.id})" class="btn btn-danger m-0">X</button></td>
+                <td><button onclick=removeItem(${stavka.id}) style=width:50px class="btn btn-danger m-0">X</button></td>
              </tr>
         `
     })

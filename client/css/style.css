@@ -127,10 +127,20 @@ hr {
   text-shadow: 0 0 1px #4a4a4a;
   color: #713fb9;
 }
+@media (max-width: 767px) {
+  .topbar a {
+    font-size: 1.5rem;
+  }
+}
 .topbar a i {
   color: #713fb9 ;
   margin-right: 10px;
   font-size: 2.5rem;
+}
+@media (max-width: 767px) {
+  .topbar a i {
+    width: 90%;
+  }
 }
 .topbar a:hover {
   color: #f1f2f8;
@@ -179,6 +189,15 @@ header {
   position: relative;
   height: 100vh;
 }
+
+@media (max-width: 767px) {
+  header {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
 header article {
   width: 40%;
   padding: 40px;
@@ -197,7 +216,17 @@ header article {
 }
 @media (max-width: 767px) {
   header article {
-    width: 100%;
+    width: 80%;
+    left: 10%;
+    margin: auto;
+  }
+}
+@media (max-width: 767px) {
+  header article h1 {
+   font-size: 1rem;
+  }
+  header article p{
+    display: none;
   }
 }
 header h1:after {
@@ -281,7 +310,7 @@ footer nav ul {
   flex-direction: row;
 }
 footer nav ul li {
-  flex: 0 0 10%;
+  flex: 0 0 12%;
 }
 @media (max-width: 767px) {
   footer nav ul li {
@@ -289,7 +318,12 @@ footer nav ul li {
   }
 }
 footer nav ul li a {
-  font-size: 0.8rem;
+  font-size: 1rem;
+}
+@media (max-width: 767px) {
+  footer nav ul li a {
+    font-size: .6rem;
+  }
 }
 footer .icons i {
   font-size: 1.5rem;

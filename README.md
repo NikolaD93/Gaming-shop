@@ -1,6 +1,7 @@
 # Gaming-shop
 The server is used from the course I took recently. 
-[YT Video Preview](https://www.youtube.com/watch?v=nC3rv26wWvM).
+
+# [YT Video Preview](https://www.youtube.com/watch?v=nC3rv26wWvM).
 # In order to see products on the products page and to be able to manipulate with them :  
 1. Go to folder server 
 2. type - npm install 

@@ -1,5 +1,5 @@
 # Gaming-shop
-The server is used from the course I took recently. Used *HTML*, *CSS*, *JavaScript* & *Node.js*.
+Used *HTML*, *CSS*, *JavaScript* & *Node.js*.
 
 Users should be able to:
 

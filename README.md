@@ -1,5 +1,14 @@
 # Gaming-shop
-The server is used from the course I took recently. 
+The server is used from the course I took recently. Used *HTML*, *CSS*, *JavaScript* & *Node.js*.
+
+Users should be able to:
+
+- View all the listed products
+- Add products to cart
+- See items in the cart,price of each item, as well as total price
+- Remove single item or all items from cart
+- View the optimal layout for the interface depending on their device's screen size
+- See hover and focus states for all interactive elements on the page
 
 # [YT Video Preview](https://www.youtube.com/watch?v=nC3rv26wWvM).
 In order to see products on the products page and to be able to manipulate with them :  

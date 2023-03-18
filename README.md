@@ -1,5 +1,9 @@
 # Gaming-shop
-Used *HTML*, *CSS*, *JavaScript* & *Node.js*.
+
+## Technologies used:
+
+- `Html`, `Css` & `JavaScript` for frontend.
+- `Node.js` as backend.
 
 Users should be able to:
 
